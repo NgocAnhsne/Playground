@@ -1,0 +1,52 @@
+header {
+  padding: 40px 0;
+}
+.header__logo img {
+  width: 166px;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__menu-link {
+  margin: 0 25px;
+  color: #1b2b5f;
+  font-size: 16px;
+  font-weight: 500;
+  transition: linear 0.3s;
+}
+.header__menu i {
+  font-size: 13px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.header__menu-link:hover {
+  color: #f4c98d;
+}
+.header__btn {
+  margin-left: 50px;
+  padding: 12px 25px;
+}
+.header__menu-sm {
+  position: relative;
+  top: 50%;
+  right: -93%;
+  width: 23px;
+  height: 2px;
+  background-color: #1b2b5f;
+}
+.header__menu-sm::before,
+.header__menu-sm::after {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  background-color: inherit;
+  display: block;
+  top: -9px;
+  left: 0;
+}
+.header__menu-sm::after {
+  top: 9px;
+}

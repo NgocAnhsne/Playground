@@ -1,0 +1,24 @@
+.btn-tran,
+.btn-yellow {
+  padding: 15px 35px;
+  background-color: transparent;
+  color: #1b2b5f;
+  font-size: 16px;
+  font-weight: 600;
+  outline: 1px solid #1b2b5f;
+  border-radius: 25px;
+  transition: linear 0.4s;
+}
+.btn-tran:hover {
+  background-color: #1b2b5f;
+  color: #fff;
+}
+.btn-yellow {
+  background-image: linear-gradient(#ffeb7b, #ffca7a);
+  box-shadow: 0 20px 40px #ffeb7b9a;
+  outline: none;
+  transition: linear 0.4s;
+}
+.btn-yellow:hover {
+  background-image: linear-gradient(#fdc672, #fdc672);
+}
